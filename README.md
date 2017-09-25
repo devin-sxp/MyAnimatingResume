@@ -2,12 +2,12 @@
 
 > This is my resume
 
-[预览](https://devinme1.github.io/animating-resume/public/)
+[预览](https://devin-sxp.github.io/animating-resume/public/)
 
 ## 使用方法
 
 ``` bash
-git clone git@github.com:devinme1/animating-resume.git
+git clone git@github.com:devin-sxp/animating-resume.git
 cd animating-resume
 npm install
 npm run dev

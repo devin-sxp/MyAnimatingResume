@@ -23,9 +23,9 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
+* 大家好，我是平平
+* 马上十月了，好多公司都在招聘，是时候要找个工作了
+* 你是不是也在准备简历呀。
 * 说做就做，我也来写一份简历！
 */
 
@@ -113,36 +113,61 @@ html{
   padding: .5em;
   background: #ddd;
 }
+
+/*等等,滚动条太难看了，加点样式吧*/
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 10px;  
+    height: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    background-color: #555;  
+}  
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `沈小平
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+java web工程师，现在正在找工作。
 
 技能
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* 前端开发（html、js、bootstrap、jquery...）
+* java ee 开发
+* Node.js、安卓app 基础开发
+* python 爬虫开发
+* spring、spring mvc、struts2、hibernate、mybatis
+* mysql、oracle db（ddl、dql、dml、事务...）
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 预警系统
+2. tour社交平台(http://118.89.25.195/tourInteraction/)
+
 
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GitHub](https://github.com/devin-sxp)
 
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+> 如果你喜欢这个效果，Fork (https://github.com/devin-sxp/animating-resume)，打造你自己的简历！
 
 `
       }
