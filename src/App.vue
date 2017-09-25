@@ -44,6 +44,7 @@ html {
   margin: .5em;
   overflow: auto;
   width: 45vw; height: 90vh;
+  border-radius: 5px;
 }
 /* 代码高亮 */
 .token.selector{ color: rgb(133,153,0); }
@@ -69,16 +70,20 @@ html{
   padding: .5em;  margin: .5em;
   width: 48vw; height: 90vh;
   border: 1px solid;
-  background: white; color: #222;
   overflow: auto;
+  /*稍微调整下让它好看点*/
+  border-style: inset;
+  border-radius: 20px;
+  border-width: 5px;
+  /*请原谅我想设置一个比较暖的颜色*/
+  background: papayawhip; color: #222
 }
-/* 好了，我开始写简历了 */
-
+/* 好了,开始写简历了 */
 
 `,
           `
 /* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
+ * 对了，这是 markdown 格式的，我需要变成对 HR 更友好的格式
  * 简单，用开源工具翻译成 HTML 就行了
  */
 `
@@ -86,7 +91,7 @@ html{
           `
 /* 再对 HTML 加点样式 */
 .resumeEditor{
-  padding: 2em;
+  padding: 0 2em 2em 2em;
 }
 .resumeEditor h2{
   display: inline-block;
@@ -136,7 +141,7 @@ html{
 {  
     border-radius: 10px;  
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
-    background-color: #555;  
+    background-color: lightsalmon;  
 }  
 `],
         currentMarkdown: '',
@@ -168,7 +173,6 @@ java web工程师，现在正在找工作。
 * [GitHub](https://github.com/devin-sxp)
 
 > 如果你喜欢这个效果，Fork (https://github.com/devin-sxp/animating-resume)，打造你自己的简历！
-
 `
       }
     },

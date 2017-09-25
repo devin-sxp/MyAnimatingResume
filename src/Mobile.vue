@@ -46,6 +46,7 @@ html {
   width: 90vw;
   margin: 2.5vh 5vw;
   height: 90vh;
+  border-radius: 5px;
 }
 /* 太高了 */
 .styleEditor {
@@ -81,8 +82,13 @@ html{
   padding: .5em;  margin: 2.5vw;
   width: 95vw; height: 45vh;
   border: 1px solid;
-  background: white; color: #222;
   overflow: auto;
+   /*稍微调整下让它好看点*/
+  border-style: inset;
+  border-radius: 20px;
+  border-width: 5px;
+  /*请原谅我想设置一个比较暖的颜色*/
+  background: papayawhip; color: #222
 }
 /* 好了，我开始写简历了 */
 
@@ -98,7 +104,7 @@ html{
           `
 /* 再对 HTML 加点样式 */
 .resumeEditor{
-  padding: 2em;
+  padding: 0 2em 2em 2em;
 }
 .resumeEditor h2{
   display: inline-block;
@@ -126,32 +132,8 @@ html{
   background: #ddd;
 }
 
-/*等等,滚动条太难看了，加点样式吧*/
-/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
-::-webkit-scrollbar  
-{  
-    width: 10px;  
-    height: 10px;  
-    background-color: #F5F5F5;  
-}  
-  
-/*定义滚动条轨道 内阴影+圆角*/  
-::-webkit-scrollbar-track  
-{  
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);  
-    border-radius: 10px;  
-    background-color: #F5F5F5;  
-}  
-  
-/*定义滑块 内阴影+圆角*/  
-::-webkit-scrollbar-thumb  
-{  
-    border-radius: 10px;  
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
-    background-color: #555;  
-}  
 `],
-           currentMarkdown: '',
+        currentMarkdown: '',
         fullMarkdown: `沈小平
 ----
 
