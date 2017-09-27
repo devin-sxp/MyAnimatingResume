@@ -2,12 +2,12 @@
 
 > This is my resume
 
-[预览](https://devin-sxp.github.io/animating-resume/public/)
+[预览](https://devin-sxp.github.io/MyAnimatingResume/public/)
 
 ## 使用方法
 
 ``` bash
-git clone git@github.com:devin-sxp/animating-resume.git
+git clone https://github.com/devin-sxp/MyAnimatingResume.git
 cd animating-resume
 npm install
 npm run dev
@@ -16,7 +16,7 @@ npm run dev
 ## 部署方法
 
 
-1. 编辑 config/index.js，修改第 10 行的 assetsPublicPath，值为 `项目名/dist`。如果你没有修改项目名 animating-resume，则可跳过此步骤。
+1. 编辑 config/index.js，修改第 10 行的 assetsPublicPath，值为 `项目名/dist`。如果你没有修改项目名 MyAnimatingResume，则可跳过此步骤。
 
 2. 编译、上传
     ``` bash
