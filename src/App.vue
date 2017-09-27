@@ -189,7 +189,7 @@ html{
 ---
 ## 链接
 
-> 如果你喜欢这个效果，Fork [animating-resume](https://github.com/devin-sxp/animating-resume)， 去打造你自己的简历！
+> 如果你喜欢这个效果，Fork [MyAnimatingResume](https://github.com/devin-sxp/MyAnimatingResume)， 去打造你自己的简历！
 		`
       }
     },
