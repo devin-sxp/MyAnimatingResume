@@ -109,21 +109,24 @@ html{
 .resumeEditor h2{
   display: inline-block;
   border-bottom: 1px solid;
-  margin: 1em 0 .5em;
+  margin: .5em 0 .5em;
+  color: #6b6b6b;
 }
 .resumeEditor ul,.resumeEditor ol{
   list-style: none;
+  margin-bottom: 0.5em;
 }
 .resumeEditor ul> li::before{
-  content: '•';
+  content: '>';
   margin-right: .5em;
+  color: #a2a;
 }
 .resumeEditor ol {
   counter-reset: section;
 }
 .resumeEditor ol li::before {
   counter-increment: section;
-  content: counters(section, ".") " ";
+  content: counters(section, ".") "、";
   margin-right: .5em;
 }
 .resumeEditor blockquote {
@@ -134,35 +137,49 @@ html{
 
 `],
         currentMarkdown: '',
-        fullMarkdown: `沈小平
-----
+        fullMarkdown: 
+		`
+## 个人信息
+ 	
+- 沈小平/男/1994 
+- 本科/**大学计算机科学与技术专业 
+- 工作年限：2018年应届毕业生
+- 现居地：四川成都
+- Github：https://github.com/devin-sxp 
+- 求职意向：java web工程师
 
-java web工程师，现在正在找工作。
+---
 
-技能
-----
+## 常用技能
 
-* 前端开发（html、js、bootstrap、jquery...）
-* java ee 开发
-* Node.js、安卓app 基础开发
-* python 爬虫开发
-* spring、spring mvc、struts2、hibernate、mybatis
-* mysql、oracle db（ddl、dql、dml、事务...）
+- 熟悉工具 office、myeclipse、IDEA
+- 前端开发（html、css、js、bootstrap、jquery...）
+- java ee 开发
+- Node.js、安卓app 基础开发
+- python 爬虫开发
+- spring、spring mvc、struts2、hibernate、mybatis
+- mysql、oracle db（ddl、dql、dml、事务...）
 
-工作经历
-----
+---
 
-1. 预警系统
-2. tour社交平台(http://118.89.25.195/tourInteraction/)
+## 项目经验
 
+1. 预警系统 （2016.9 --- 2017.1）
+2. tour社交平台 [链接](http://118.89.25.195/tourInteraction/)
 
-链接
-----
+---
 
-* [GitHub](https://github.com/devin-sxp)
+## 联系方式
 
-> 如果你喜欢这个效果，Fork (https://github.com/devin-sxp/animating-resume)，打造你自己的简历！
+- QQ：9119xxxxxx
+- weChat：s9119xxxxxx
+- phone：183xxxxxxxx
+- email：9119xxxxxx@qq.com
 
+---
+## 链接
+
+> 如果你喜欢这个效果，Fork [animating-resume](https://github.com/devin-sxp/animating-resume)， 去打造你自己的简历！
 `
       }
     },
